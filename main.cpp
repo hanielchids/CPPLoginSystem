@@ -30,7 +30,7 @@ int main()
 {
     int choice;
 
-    cout << "1: Register\n2:: Login\nYour choice: ";
+    cout << "1: Register\n2: Login\nYour choice: ";
     cin >> choice;
 
     if (choice == 1)
