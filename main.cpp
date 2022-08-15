@@ -57,7 +57,7 @@ int main()
 
         if (!status){
             cout << "False Login!" << endl;
-            system("PUSE");
+            system("PAUSE");
             return 0;
         } else
         {
