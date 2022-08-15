@@ -54,5 +54,17 @@ int main()
     } else if (choice == 2)
     {
         bool status = isLoggedIn();
+
+        if (!status){
+            cout << "False Login!" << endl;
+            system("PUSE");
+            return 0;
+        } else
+        {
+            cout << "Succesfully logged in!";
+            system("PAUSE");
+            return 1;
+        }
+
     }
 }
